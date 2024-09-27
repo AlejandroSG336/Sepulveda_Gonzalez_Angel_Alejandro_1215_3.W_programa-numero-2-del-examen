@@ -7,25 +7,38 @@
 # Solicitar la entrada de tres números distintos
 print("Ingresa tres números distintos")
 
-# Convertimos la entrada a números (int o float, según prefieras)
+# Convertimos la entrada a números a int o float
+
 a = float(input("Ingresa número A: "))
+
 b = float(input("Ingresa número B: "))
+
 c = float(input("Ingresa número C: "))
 
 # Validar si los números son distintos
+
 if a == b or b == c or a == c:
-    # Si algún par de valores es igual, se muestra este mensaje
-    print("Error: Los tres números deben ser distintos.")
+
+# Si algún par de valores es igual, se muestra este mensaje
+    
+print("Error: Los tres números deben ser distintos.")
+
 else:
-    # Mostrar los valores ingresados
-    print(f"Valores ingresados: A = {a}, B = {b}, C = {c}")
+
+# Mostrar los valores ingresados
+    
+print(f"Valores ingresados: A = {a}, B = {b}, C = {c}")
 
   # Determinar el mayor y el menor utilizando las funciones max() y min()
+  
   mayor = max(a, b, c)    
+  
   menor = min(a, b, c)
 
   # Mostrar los resultados
+  
   print(f"El número mayor es: {mayor}")
+  
   print(f"El número menor es: {menor}")
 
 ![image](https://github.com/user-attachments/assets/811d8ed9-cf5e-49a8-9715-768d3e4fb7f6)
